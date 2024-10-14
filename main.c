@@ -35,7 +35,7 @@ typedef struct {
 
 TipoPokemon getTipo() {
     int tipo;
-    printf("Escolha o tipo do Pokemon (0 - Fogo, 1 - Água, 2 - Grama, 3 - Elétrico, 4 - Normal, 5 - Psíquico, 6 - Inseto, 7 - Luta, 8 - Pedra, 9 - Fada, 10 - Fantasma, 11 - Voador): ");
+    printf("Escolha o tipo do Pokemon (0 - Fogo, 1 - Agua, 2 - Grama, 3 - Eletrico, 4 - Normal, 5 - Psiquico, 6 - Inseto, 7 - Luta, 8 - Pedra, 9 - Fada, 10 - Fantasma, 11 - Voador): ");
     scanf("%d", &tipo);
     return (TipoPokemon)tipo;
 }
